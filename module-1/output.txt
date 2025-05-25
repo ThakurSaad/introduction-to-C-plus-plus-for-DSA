@@ -1,6 +1,1 @@
-10
-s
-5.45
-115
-type casting char s-> 115
-type casting int 115-> s
+10.3230
