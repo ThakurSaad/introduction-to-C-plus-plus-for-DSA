@@ -1,5 +1,6 @@
-100
-A
-100.55
-100A100.55
-MY number is 100
+10
+s
+5.45
+115
+type casting char s-> 115
+type casting int 115-> s
