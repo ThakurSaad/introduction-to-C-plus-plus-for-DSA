@@ -1,1 +1,5 @@
-hello world
+100
+A
+100.55
+100A100.55
+MY number is 100
