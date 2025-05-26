@@ -1,13 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void fun()
-{
-}
-
 int main()
 {
-    fun();
 
     // int a[5]; static array
 
