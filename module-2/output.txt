@@ -1,0 +1,3 @@
+0x61fddc fun = 10
+0x61fddc main = 0
+0x7027b0 = 100
