@@ -18,17 +18,17 @@ public:
 
 Student *fun()
 {
-    Student lisa(30, 5, 2.34);
-    Student *p = &lisa;
-    return p;
+    Student *jenny = new Student(42, 5, 2.33);
+    return jenny;
 }
 
 int main()
 {
-    Student *lisa_noonim = fun();
+    Student lisa_noonim(2, 3, 4);
+    Student *jenny = fun();
 
-    // cout << (*lisa_noonim).roll << " " << (*lisa_noonim).cls << " " << (*lisa_noonim).gpa << endl;
-    cout << lisa_noonim->roll << " " << lisa_noonim->cls << " " << lisa_noonim->gpa << endl;
+    cout << lisa_noonim.roll << " " << lisa_noonim.cls << " " << lisa_noonim.gpa << endl;
+    cout << (*jenny).roll << " " << (*jenny).cls << " " << (*jenny).gpa << endl;
 
     return 0;
 }
