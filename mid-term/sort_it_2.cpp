@@ -12,11 +12,6 @@ int *sort_it(int n)
 
     sort(a, a + n, greater<int>());
 
-    // for (int i = 0; i < n; i++)
-    // {
-    //     cout << a[i] << " ";
-    // }
-
     return a;
 }
 
