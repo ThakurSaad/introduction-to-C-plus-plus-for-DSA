@@ -8,14 +8,6 @@ public:
     string name;
     char section;
     int marks;
-
-    // Student(int c_id, string c_name, char c_section, int c_marks)
-    // {
-    //     this->id = c_id;
-    //     this->name = c_name;
-    //     this->section = c_section;
-    //     this->marks = c_marks;
-    // }
 };
 
 int main()
