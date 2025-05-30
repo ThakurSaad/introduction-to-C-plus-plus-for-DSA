@@ -47,12 +47,10 @@ int main()
 
         if (is_sum)
         {
-            // cout << is_sum << " = YES" << endl;
             cout << "YES" << endl;
         }
         else
         {
-            // cout << is_sum << " = NO" << endl;
             cout << "NO" << endl;
         }
     }

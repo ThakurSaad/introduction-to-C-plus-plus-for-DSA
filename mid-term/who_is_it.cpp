@@ -6,13 +6,15 @@ int main()
     int t;
     cin >> t;
 
-    for (int i = 0; i < t; i++)
+    for (int i = 1; i <= t; i++)
     {
-        int highest_marks = 0,
-            smallest_id_highest_marks,
-            prev_id = 1;
 
-        for (int i = 0; i < 3; i++)
+        int prev_id = 0,
+            max_marks = 0;
+        string result_name;
+        char result_section;
+
+        for (int j = 0; j < 3; j++)
         {
             int id;
             string name;
@@ -21,23 +23,30 @@ int main()
 
             cin >> id >> name >> section >> marks;
 
-            if (marks == highest_marks)
+            if (max_marks < marks)
             {
-                smallest_id_highest_marks = id;
-                // if (id < smallest_id_highest_marks)
-                // {
-                //     smallest_id_highest_marks = id;
-                // }
+                max_marks = marks;
+                prev_id = id;
+                result_name = name;
+                result_section = section;
             }
-
-            if (marks > highest_marks)
+            else if (max_marks == marks)
             {
-                highest_marks = marks;
+                if (prev_id > id)
+                {
+                    max_marks = marks;
+                    prev_id = id;
+
+                    result_name = name;
+                    result_section = section;
+                }
             }
 
             // cout << id << " " << name << " " << section << " " << marks << endl;
         }
-        cout << smallest_id_highest_marks << " " << highest_marks << endl;
+        cout << prev_id << " " << result_name << " " << result_section << " " << max_marks << endl;
+
+        // cout << endl;
     }
 
     return 0;
