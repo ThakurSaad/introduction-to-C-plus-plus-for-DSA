@@ -1,1 +1,2 @@
-s1.max_size()
+int x;
+    cin >> x;

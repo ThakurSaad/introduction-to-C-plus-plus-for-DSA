@@ -1,6 +1,2 @@
-h
-h
-e
-l
-l
-o
+10
+hello world
