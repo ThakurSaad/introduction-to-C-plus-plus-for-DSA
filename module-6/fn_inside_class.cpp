@@ -34,7 +34,7 @@ public:
 int main()
 {
     Student lisa("La Lisa", 55, 80, 90, "math");
-    // lisa.hello();
+    // lisa.hello();f
     lisa.total_marks();
 
     Student jenny("La Jenny Ruby", 55, 80, 60, "math");
