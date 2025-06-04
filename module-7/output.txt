@@ -1,6 +1,9 @@
-rose 28 30 
 black 20 30 
-shadow 23 45 
-jenny 18 65 
+rose 28 30 
+shadow 23 44 
+shadow 24 44 
+shadow 25 44 
+shadow 29 44 
 Jisoo 1 78 
+jenny 18 78 
 lisa 15 89 

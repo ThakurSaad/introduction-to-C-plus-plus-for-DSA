@@ -1,7 +1,10 @@
-6
+9
 lisa 15 89
-jenny 18 65
+jenny 18 78
 rose 28 30
 Jisoo 1 78
 black 20 30
-shadow 23 45
+shadow 23 44
+shadow 24 44
+shadow 25 44
+shadow 29 44
