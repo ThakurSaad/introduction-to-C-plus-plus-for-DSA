@@ -24,9 +24,17 @@ bool cmp(Student l, Student r)
         {
             return true;
         }
-        else if (l.math_marks > r.math_marks)
+        else if (l.math_marks == r.math_marks)
         {
-            return l.id < r.id;
+            if (l.id < r.id)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+            // return l.id < r.id;
         }
         else
         {
