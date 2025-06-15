@@ -15,22 +15,6 @@ int main()
             cout << "YES";
             return 0;
         }
-
-        // int ln_c = c.size();
-
-        // for (int i = 0; i < ln_c; i++)
-        // {
-        //     int c_ascii = c[i];
-
-        //     if (c_ascii < 97 && c_ascii > 122)
-        //     {
-        //         break;
-        //     }
-
-        //     cout << c[i] << " = " << c_ascii << "| ";
-        // }
-
-        // cout << endl;
     }
     cout << "NO";
 
